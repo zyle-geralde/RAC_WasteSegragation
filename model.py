@@ -133,7 +133,7 @@ def predict_from_path(image_path, index, labels, k=5):
     prediction = predict(img, index, labels, k)
     return classes[prediction]
 
-print(predict_from_path("C:\\Users\\saylo\\OneDrive\\Desktop\\Zyle CIT 1st year shool works\\3rd year\\Intelligent System 2\\ASLClassification\\archive (4)\\DATASET\\TEST\\R\\R_10005.jpg",loaded_index, loaded_labels))
+print(predict_from_path("C:\\Users\\saylo\\OneDrive\\Desktop\\Zyle CIT 1st year shool works\\3rd year\\Intelligent System 2\\ASLClassification\\archive (4)\\DATASET\\TEST\\O\\O_13867.jpg",loaded_index, loaded_labels))
 
 #----For Evaluation -----#
 
